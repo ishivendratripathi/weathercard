@@ -15,6 +15,9 @@ function App() {
   })
   const [weather, setweather] = useState('');
 
+
+  // microservice API usage 
+
   function eventhandler() {
     if (weather !== '') {
       const API = `https://api.openweathermap.org/data/2.5/weather?q=${weather}&appid=47fd11a805473a403a69f164a42d14fe&units=metric`;
